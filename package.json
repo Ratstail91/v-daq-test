@@ -1,0 +1,38 @@
+{
+  "name": "v-daq-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "npm run prod:client",
+    "prod:client": "webpack serve --env=production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratstail91/v-daq-test.git"
+  },
+  "author": "Kayne Ruse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ratstail91/v-daq-test/issues"
+  },
+  "homepage": "https://github.com/Ratstail91/v-daq-test#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "compression-webpack-plugin": "^9.2.0",
+    "dotenv": "^16.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.7.4"
+  }
+}
